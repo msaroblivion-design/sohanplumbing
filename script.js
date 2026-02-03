@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // and is much more reliable. We will format the message correctly.
     
     const phoneNumber = "6589068421";
-    const message = encodeURIComponent("Hi Sohan, I need plumbing service in Singapore. Please advise.");
+    const message = encodeURIComponent("Hi");
     const waUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
     const waLinks = document.querySelectorAll('.whatsapp-link');
